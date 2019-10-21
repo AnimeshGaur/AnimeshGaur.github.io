@@ -1,1 +1,1 @@
-AnimeshGaur@github.io
+AnimeshGaur.github.io
