@@ -1,0 +1,21 @@
+HTTrack3.49-2 launched on Wed, 28 Apr 2021 17:59:42 at https://www.ewebservices.co.uk/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.ewebservices.co.uk/ -O "/home/animesh/websites/portfolio" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:01:10	Error: 	"Not Found" (404) at link https://www.ewebservices.co.uk/contactus.html (from https://www.ewebservices.co.uk/mobile-apps-development.php)
+18:01:10	Error: 	"Not Found" (404) at link https://www.ewebservices.co.uk/www.google.com (from https://www.ewebservices.co.uk/portfolio.php)
+18:01:53	Warning: 	HTML file (15961 bytes) retransferred due to lack of cache: https://www.ewebservices.co.uk/about-us.php
+18:01:54	Warning: 	HTML file (583 bytes) retransferred due to lack of cache: https://www.ewebservices.co.uk/contactus.html
+18:01:55	Error: 	"Not Found" (404) at link https://www.ewebservices.co.uk/contactus.html (from https://www.ewebservices.co.uk/mobile-apps-development.php)
+18:01:55	Warning: 	HTML file (583 bytes) retransferred due to lack of cache: https://www.ewebservices.co.uk/www.google.com
+18:01:56	Error: 	"Not Found" (404) at link https://www.ewebservices.co.uk/www.google.com (from https://www.ewebservices.co.uk/portfolio.php)
+18:01:56	Error: 	"Not Found" (404) at link https://www.ewebservices.co.uk/images/seo1.png (from https://www.ewebservices.co.uk/portfolio.php)
+18:01:56	Error: 	"Not Found" (404) at link https://www.ewebservices.co.uk/images/seo2.png (from https://www.ewebservices.co.uk/portfolio.php)
+18:01:56	Error: 	"Not Found" (404) at link https://www.ewebservices.co.uk/images/p.jpg (from https://www.ewebservices.co.uk/portfolio.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 14 seconds : 101 links scanned, 95 files written (10052061 bytes overall) [9875234 bytes received at 73695 bytes/sec], 316395 bytes transferred using HTTP compression in 21 files, ratio 24%, 6.0 requests per connection
+(7 errors, 3 warnings, 0 messages)
