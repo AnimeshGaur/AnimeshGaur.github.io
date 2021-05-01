@@ -8,7 +8,8 @@ body{
 }
 
 img{
-	max-width:40%;
+	max-width:100%;
+	margin-left: 10%;
 }
 
 h1, h2, h3{
